@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: c690e41e5fac7084db31b88141e3c025
+timeCreated: 1463667442
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bike_rack_one
+    100002: bike_rack_two
+    100004: casino
+    100006: club
+    100008: Cone
+    100010: Cone_001
+    100012: Cube_002
+    100014: Cylinder_001
+    100016: Cylinder_003
+    100018: Cylinder_005
+    100020: //RootNode
+    100022: Foundain_base_collision
+    100024: fountain_base
+    100026: grass__geo
+    100028: grass_curb_coll_geo
+    100030: grass_curb_geo
+    100032: gym
+    100034: hotel
+    100036: light_one
+    100038: light_two
+    100040: loans
+    100042: m_p
+    100044: main_plane
+    100046: north_curb_coll_geo
+    100048: north_geo
+    100050: southwest_coll_geo
+    100052: southwest_geo
+    100054: statue_base
+    100056: travel
+    400000: bike_rack_one
+    400002: bike_rack_two
+    400004: casino
+    400006: club
+    400008: Cone
+    400010: Cone_001
+    400012: Cube_002
+    400014: Cylinder_001
+    400016: Cylinder_003
+    400018: Cylinder_005
+    400020: //RootNode
+    400022: Foundain_base_collision
+    400024: fountain_base
+    400026: grass__geo
+    400028: grass_curb_coll_geo
+    400030: grass_curb_geo
+    400032: gym
+    400034: hotel
+    400036: light_one
+    400038: light_two
+    400040: loans
+    400042: m_p
+    400044: main_plane
+    400046: north_curb_coll_geo
+    400048: north_geo
+    400050: southwest_coll_geo
+    400052: southwest_geo
+    400054: statue_base
+    400056: travel
+    2300000: bike_rack_one
+    2300002: bike_rack_two
+    2300004: casino
+    2300006: club
+    2300008: Cone
+    2300010: Cone_001
+    2300012: Cube_002
+    2300014: Cylinder_001
+    2300016: Cylinder_003
+    2300018: Cylinder_005
+    2300020: Foundain_base_collision
+    2300022: fountain_base
+    2300024: grass__geo
+    2300026: grass_curb_coll_geo
+    2300028: grass_curb_geo
+    2300030: gym
+    2300032: hotel
+    2300034: light_one
+    2300036: light_two
+    2300038: loans
+    2300040: m_p
+    2300042: main_plane
+    2300044: north_curb_coll_geo
+    2300046: north_geo
+    2300048: southwest_coll_geo
+    2300050: southwest_geo
+    2300052: statue_base
+    2300054: travel
+    3300000: bike_rack_one
+    3300002: bike_rack_two
+    3300004: casino
+    3300006: club
+    3300008: Cone
+    3300010: Cone_001
+    3300012: Cube_002
+    3300014: Cylinder_001
+    3300016: Cylinder_003
+    3300018: Cylinder_005
+    3300020: Foundain_base_collision
+    3300022: fountain_base
+    3300024: grass__geo
+    3300026: grass_curb_coll_geo
+    3300028: grass_curb_geo
+    3300030: gym
+    3300032: hotel
+    3300034: light_one
+    3300036: light_two
+    3300038: loans
+    3300040: m_p
+    3300042: main_plane
+    3300044: north_curb_coll_geo
+    3300046: north_geo
+    3300048: southwest_coll_geo
+    3300050: southwest_geo
+    3300052: statue_base
+    3300054: travel
+    4300000: Foundain_base_collision
+    4300002: travel
+    4300004: gym
+    4300006: loans
+    4300008: club
+    4300010: hotel
+    4300012: casino
+    4300014: m_p
+    4300016: bike_rack_one
+    4300018: statue_base
+    4300020: Cube_002
+    4300022: fountain_base
+    4300024: Cylinder_001
+    4300026: main_plane
+    4300028: grass_curb_geo
+    4300030: grass__geo
+    4300032: southwest_geo
+    4300034: north_geo
+    4300036: light_one
+    4300038: Cylinder_003
+    4300040: Cone
+    4300042: light_two
+    4300044: Cylinder_005
+    4300046: Cone_001
+    4300048: bike_rack_two
+    4300050: southwest_coll_geo
+    4300052: grass_curb_coll_geo
+    4300054: north_curb_coll_geo
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

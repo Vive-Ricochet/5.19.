@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: 98b6e88d3b7e37e43865b2f0626e76aa
+timeCreated: 1455152361
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: bicep 1
+    100004: bicep 1.002
+    100006: chest
+    100008: collar 1
+    100010: collar 1.003
+    100012: Cube
+    100014: finger 1
+    100016: finger 1.001
+    100018: finger 1.001_end
+    100020: finger 1.1
+    100022: finger 1.1_end
+    100024: finger 1.2
+    100026: finger 1.2_end
+    100028: finger 1_end
+    100030: foot 1
+    100032: foot 1.002
+    100034: foot 1.002_end
+    100036: foot 1_end
+    100038: hand 1
+    100040: hand 1.1
+    100042: head
+    100044: head_end
+    100046: heel 1
+    100048: heel 1.002
+    100050: knee 1
+    100052: knee 1.002
+    100054: lower neck
+    100056: ORG-bicep 1
+    100058: ORG-bicep 1.002
+    100060: ORG-chest
+    100062: ORG-collar 1
+    100064: ORG-collar 1.003
+    100066: ORG-finger 1
+    100068: ORG-finger 1.001
+    100070: ORG-finger 1.001_end
+    100072: ORG-finger 1.1
+    100074: ORG-finger 1.1_end
+    100076: ORG-finger 1.2
+    100078: ORG-finger 1.2_end
+    100080: ORG-finger 1_end
+    100082: ORG-foot 1
+    100084: ORG-foot 1.002
+    100086: ORG-foot 1.002_end
+    100088: ORG-foot 1_end
+    100090: ORG-hand 1
+    100092: ORG-hand 1.1
+    100094: ORG-head
+    100096: ORG-head_end
+    100098: ORG-heel 1
+    100100: ORG-heel 1.002
+    100102: ORG-knee 1
+    100104: ORG-knee 1.002
+    100106: ORG-lower neck
+    100108: ORG-pelvis
+    100110: ORG-pelvis_end
+    100112: ORG-ribs
+    100114: ORG-stomach
+    100116: ORG-thigh 1
+    100118: ORG-thigh 1.001
+    100120: ORG-thigh 1.002
+    100122: ORG-thigh 1.004
+    100124: ORG-tricep 1
+    100126: ORG-tricep 1.002
+    100128: ORG-upper neck
+    100130: //RootNode
+    100132: pelvis
+    100134: pelvis_end
+    100136: ribs
+    100138: rig
+    100140: root
+    100142: stomach
+    100144: thigh 1
+    100146: thigh 1.001
+    100148: thigh 1.002
+    100150: thigh 1.004
+    100152: tricep 1
+    100154: tricep 1.002
+    100156: upper neck
+    400000: Armature
+    400002: bicep 1
+    400004: bicep 1.002
+    400006: chest
+    400008: collar 1
+    400010: collar 1.003
+    400012: Cube
+    400014: finger 1
+    400016: finger 1.001
+    400018: finger 1.001_end
+    400020: finger 1.1
+    400022: finger 1.1_end
+    400024: finger 1.2
+    400026: finger 1.2_end
+    400028: finger 1_end
+    400030: foot 1
+    400032: foot 1.002
+    400034: foot 1.002_end
+    400036: foot 1_end
+    400038: hand 1
+    400040: hand 1.1
+    400042: head
+    400044: head_end
+    400046: heel 1
+    400048: heel 1.002
+    400050: knee 1
+    400052: knee 1.002
+    400054: lower neck
+    400056: ORG-bicep 1
+    400058: ORG-bicep 1.002
+    400060: ORG-chest
+    400062: ORG-collar 1
+    400064: ORG-collar 1.003
+    400066: ORG-finger 1
+    400068: ORG-finger 1.001
+    400070: ORG-finger 1.001_end
+    400072: ORG-finger 1.1
+    400074: ORG-finger 1.1_end
+    400076: ORG-finger 1.2
+    400078: ORG-finger 1.2_end
+    400080: ORG-finger 1_end
+    400082: ORG-foot 1
+    400084: ORG-foot 1.002
+    400086: ORG-foot 1.002_end
+    400088: ORG-foot 1_end
+    400090: ORG-hand 1
+    400092: ORG-hand 1.1
+    400094: ORG-head
+    400096: ORG-head_end
+    400098: ORG-heel 1
+    400100: ORG-heel 1.002
+    400102: ORG-knee 1
+    400104: ORG-knee 1.002
+    400106: ORG-lower neck
+    400108: ORG-pelvis
+    400110: ORG-pelvis_end
+    400112: ORG-ribs
+    400114: ORG-stomach
+    400116: ORG-thigh 1
+    400118: ORG-thigh 1.001
+    400120: ORG-thigh 1.002
+    400122: ORG-thigh 1.004
+    400124: ORG-tricep 1
+    400126: ORG-tricep 1.002
+    400128: ORG-upper neck
+    400130: //RootNode
+    400132: pelvis
+    400134: pelvis_end
+    400136: ribs
+    400138: rig
+    400140: root
+    400142: stomach
+    400144: thigh 1
+    400146: thigh 1.001
+    400148: thigh 1.002
+    400150: thigh 1.004
+    400152: tricep 1
+    400154: tricep 1.002
+    400156: upper neck
+    4300000: Cube
+    7400000: rig|rigAction
+    7400002: Armature|Charge
+    7400004: Armature|Dash
+    7400006: Armature|Pose-LF-LF-Standing
+    7400008: Armature|Pose-LF-RS-Standing
+    7400010: Armature|Pose-LS-RF-Standing
+    7400012: Armature|Pose-LS-RS-Standing
+    7400014: Armature|Running
+    7400016: Armature|Running-Poses-LF-RF
+    7400018: Armature|Running-Poses-LF-RS
+    7400020: Armature|Running-Poses-LS-RF
+    7400022: Armature|Running-Poses-LS-RS
+    7400024: Armature|Standing
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

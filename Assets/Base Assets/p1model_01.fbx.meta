@@ -1,0 +1,3553 @@
+fileFormatVersion: 2
+guid: 2c6bb1fee769c734192003cadf728e95
+timeCreated: 1455157303
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: bicep 1
+    100004: bicep 1.002
+    100006: chest
+    100008: collar 1
+    100010: collar 1.003
+    100012: Cube
+    100014: finger 1
+    100016: finger 1.001
+    100018: finger 1.001_end
+    100020: finger 1.1
+    100022: finger 1.1_end
+    100024: finger 1.2
+    100026: finger 1.2_end
+    100028: finger 1_end
+    100030: foot 1
+    100032: foot 1.002
+    100034: foot 1.002_end
+    100036: foot 1_end
+    100038: hand 1
+    100040: hand 1.1
+    100042: head
+    100044: head_end
+    100046: heel 1
+    100048: heel 1.002
+    100050: knee 1
+    100052: knee 1.002
+    100054: lower neck
+    100056: ORG-bicep 1
+    100058: ORG-bicep 1.002
+    100060: ORG-chest
+    100062: ORG-collar 1
+    100064: ORG-collar 1.003
+    100066: ORG-finger 1
+    100068: ORG-finger 1.001
+    100070: ORG-finger 1.001_end
+    100072: ORG-finger 1.1
+    100074: ORG-finger 1.1_end
+    100076: ORG-finger 1.2
+    100078: ORG-finger 1.2_end
+    100080: ORG-finger 1_end
+    100082: ORG-foot 1
+    100084: ORG-foot 1.002
+    100086: ORG-foot 1.002_end
+    100088: ORG-foot 1_end
+    100090: ORG-hand 1
+    100092: ORG-hand 1.1
+    100094: ORG-head
+    100096: ORG-head_end
+    100098: ORG-heel 1
+    100100: ORG-heel 1.002
+    100102: ORG-knee 1
+    100104: ORG-knee 1.002
+    100106: ORG-lower neck
+    100108: ORG-pelvis
+    100110: ORG-pelvis_end
+    100112: ORG-ribs
+    100114: ORG-stomach
+    100116: ORG-thigh 1
+    100118: ORG-thigh 1.001
+    100120: ORG-thigh 1.002
+    100122: ORG-thigh 1.004
+    100124: ORG-tricep 1
+    100126: ORG-tricep 1.002
+    100128: ORG-upper neck
+    100130: //RootNode
+    100132: pelvis
+    100134: pelvis_end
+    100136: ribs
+    100138: rig
+    100140: root
+    100142: stomach
+    100144: thigh 1
+    100146: thigh 1.001
+    100148: thigh 1.002
+    100150: thigh 1.004
+    100152: tricep 1
+    100154: tricep 1.002
+    100156: upper neck
+    400000: Armature
+    400002: bicep 1
+    400004: bicep 1.002
+    400006: chest
+    400008: collar 1
+    400010: collar 1.003
+    400012: Cube
+    400014: finger 1
+    400016: finger 1.001
+    400018: finger 1.001_end
+    400020: finger 1.1
+    400022: finger 1.1_end
+    400024: finger 1.2
+    400026: finger 1.2_end
+    400028: finger 1_end
+    400030: foot 1
+    400032: foot 1.002
+    400034: foot 1.002_end
+    400036: foot 1_end
+    400038: hand 1
+    400040: hand 1.1
+    400042: head
+    400044: head_end
+    400046: heel 1
+    400048: heel 1.002
+    400050: knee 1
+    400052: knee 1.002
+    400054: lower neck
+    400056: ORG-bicep 1
+    400058: ORG-bicep 1.002
+    400060: ORG-chest
+    400062: ORG-collar 1
+    400064: ORG-collar 1.003
+    400066: ORG-finger 1
+    400068: ORG-finger 1.001
+    400070: ORG-finger 1.001_end
+    400072: ORG-finger 1.1
+    400074: ORG-finger 1.1_end
+    400076: ORG-finger 1.2
+    400078: ORG-finger 1.2_end
+    400080: ORG-finger 1_end
+    400082: ORG-foot 1
+    400084: ORG-foot 1.002
+    400086: ORG-foot 1.002_end
+    400088: ORG-foot 1_end
+    400090: ORG-hand 1
+    400092: ORG-hand 1.1
+    400094: ORG-head
+    400096: ORG-head_end
+    400098: ORG-heel 1
+    400100: ORG-heel 1.002
+    400102: ORG-knee 1
+    400104: ORG-knee 1.002
+    400106: ORG-lower neck
+    400108: ORG-pelvis
+    400110: ORG-pelvis_end
+    400112: ORG-ribs
+    400114: ORG-stomach
+    400116: ORG-thigh 1
+    400118: ORG-thigh 1.001
+    400120: ORG-thigh 1.002
+    400122: ORG-thigh 1.004
+    400124: ORG-tricep 1
+    400126: ORG-tricep 1.002
+    400128: ORG-upper neck
+    400130: //RootNode
+    400132: pelvis
+    400134: pelvis_end
+    400136: ribs
+    400138: rig
+    400140: root
+    400142: stomach
+    400144: thigh 1
+    400146: thigh 1.001
+    400148: thigh 1.002
+    400150: thigh 1.004
+    400152: tricep 1
+    400154: tricep 1.002
+    400156: upper neck
+    4300000: Cube
+    7400000: rig|rigAction
+    7400002: Armature|Charge
+    7400004: Armature|Dash
+    7400006: Armature|Pose-LF-LF-Standing
+    7400008: Armature|Pose-LF-RS-Standing
+    7400010: Armature|Pose-LS-RF-Standing
+    7400012: Armature|Pose-LS-RS-Standing
+    7400014: Armature|Running
+    7400016: Armature|Running-Poses-LF-RF
+    7400018: Armature|Running-Poses-LF-RS
+    7400020: Armature|Running-Poses-LS-RF
+    7400022: Armature|Running-Poses-LS-RS
+    7400024: Armature|Standing
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nInbetween bone default rotation found in this file
+      is different from the one found in the source avatar:\n\t'knee 1' : rotation
+      error = 1.560753 deg\n\t'knee 1.002' : rotation error = 1.561941 deg\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: rig|rigAction
+      takeName: rig|rigAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Charge
+      takeName: Armature|Charge
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Dash
+      takeName: Armature|Dash
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Pose-LF-LF-Standing
+      takeName: Armature|Pose-LF-LF-Standing
+      firstFrame: 22
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Pose-LF-RS-Standing
+      takeName: Armature|Pose-LF-RS-Standing
+      firstFrame: 21.8
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Pose-LS-RF-Standing
+      takeName: Armature|Pose-LS-RF-Standing
+      firstFrame: 22.2
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Pose-LS-RS-Standing
+      takeName: Armature|Pose-LS-RS-Standing
+      firstFrame: 22
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Running
+      takeName: Armature|Running
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Running-Poses-LF-RF
+      takeName: Armature|Running-Poses-LF-RF
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Running-Poses-LF-RS
+      takeName: Armature|Running-Poses-LF-RS
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Running-Poses-LS-RF
+      takeName: Armature|Running-Poses-LS-RF
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Running-Poses-LS-RS
+      takeName: Armature|Running-Poses-LS-RS
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Standing
+      takeName: Armature|Standing
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/Armature
+        weight: 1
+      - path: rig/Armature/pelvis
+        weight: 1
+      - path: rig/Armature/pelvis/pelvis_end
+        weight: 1
+      - path: rig/Armature/stomach
+        weight: 1
+      - path: rig/Armature/stomach/ribs
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/finger 1.2/finger
+          1.2_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1/bicep 1/tricep 1/hand 1.1/finger
+          1.1/finger 1.1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/finger
+          1.001/finger 1.001_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/collar 1.003/bicep 1.002/tricep 1.002/hand
+          1/finger 1/finger 1_end
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head
+        weight: 1
+      - path: rig/Armature/stomach/ribs/chest/lower neck/upper neck/head/head_end
+        weight: 1
+      - path: rig/Armature/thigh 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1
+        weight: 1
+      - path: rig/Armature/thigh 1/knee 1/thigh 1.001/heel 1/foot 1/foot 1_end
+        weight: 1
+      - path: rig/Armature/thigh 1.004
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002
+        weight: 1
+      - path: rig/Armature/thigh 1.004/knee 1.002/thigh 1.002/heel 1.002/foot 1.002/foot
+          1.002_end
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-pelvis
+        weight: 1
+      - path: rig/root/ORG-pelvis/ORG-pelvis_end
+        weight: 1
+      - path: rig/root/ORG-stomach
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-finger 1.2/ORG-finger 1.2_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1/ORG-bicep 1/ORG-tricep
+          1/ORG-hand 1.1/ORG-finger 1.1/ORG-finger 1.1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-finger 1.001/ORG-finger 1.001_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-collar 1.003/ORG-bicep 1.002/ORG-tricep
+          1.002/ORG-hand 1/ORG-finger 1/ORG-finger 1_end
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head
+        weight: 1
+      - path: rig/root/ORG-stomach/ORG-ribs/ORG-chest/ORG-lower neck/ORG-upper neck/ORG-head/ORG-head_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1
+        weight: 1
+      - path: rig/root/ORG-thigh 1/ORG-knee 1/ORG-thigh 1.001/ORG-heel 1/ORG-foot
+          1/ORG-foot 1_end
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002
+        weight: 1
+      - path: rig/root/ORG-thigh 1.004/ORG-knee 1.002/ORG-thigh 1.002/ORG-heel 1.002/ORG-foot
+          1.002/ORG-foot 1.002_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Armature
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh 1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh 1.004
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh 1.001
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh 1.002
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot 1
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot 1.002
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ribs
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lower neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: collar 1
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: collar 1.003
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bicep 1
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bicep 1.002
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: tricep 1
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: tricep 1.002
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand 1.1
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand 1
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot 1_end
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot 1.002_end
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: p1model_01(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cube
+      position: {x: 0.83982307, y: -0.03979797, z: 0.18685226}
+      rotation: {x: -0.7071068, y: -0.000000007785314, z: 0.00000002986084, w: 0.7071067}
+      scale: {x: 28.450567, y: 28.45057, z: 28.450565}
+      transformModified: 1
+    - name: rig
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 28.450567, y: 28.45057, z: 28.45057}
+      transformModified: 1
+    - name: Armature
+      position: {x: 0.000067317334, y: 0.0075394167, z: 0.06781767}
+      rotation: {x: 0.70796454, y: -1.5719973e-16, z: 3.3397004e-23, w: 0.706248}
+      scale: {x: 1.2519907, y: 1.2519907, z: 1.2519907}
+      transformModified: 1
+    - name: pelvis
+      position: {x: 9.3074964e-20, y: 0.0000010150768, z: 0.010418156}
+      rotation: {x: 0.9999452, y: -0.000000013886346, z: 0.00000013759606, w: 0.010470592}
+      scale: {x: 1, y: 0.9999996, z: 0.9992849}
+      transformModified: 1
+    - name: pelvis_end
+      position: {x: -0, y: 0.0056468314, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: stomach
+      position: {x: 9.3074964e-20, y: 0.0000010150768, z: 0.010418156}
+      rotation: {x: 0.075040266, y: 0.000000025024082, z: -0.000000017808302, w: 0.9971805}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: ribs
+      position: {x: -6.617445e-26, y: 0.009625, z: -1.4901161e-10}
+      rotation: {x: -0.18042241, y: 4.996004e-15, z: -1.08801865e-14, w: 0.98358923}
+      scale: {x: 1, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: chest
+      position: {x: 3.3087224e-26, y: 0.008016879, z: 4.4703483e-10}
+      rotation: {x: 0.15574466, y: -1.7763568e-15, z: 1.731948e-14, w: 0.98779744}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: collar 1
+      position: {x: -0.0011301236, y: 0.00610845, z: 0.00008428633}
+      rotation: {x: -0.12769689, y: 0.05727806, z: 0.8023365, w: 0.58023185}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: bicep 1
+      position: {x: 8.1956386e-10, y: 0.005065768, z: -8.9406965e-10}
+      rotation: {x: 0.056452192, y: -0.08446005, z: -0.1153299, w: 0.98811877}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000005}
+      transformModified: 1
+    - name: tricep 1
+      position: {x: -1.4901161e-10, y: 0.016094184, z: -0.0000000019557773}
+      rotation: {x: -0.001466634, y: -0.0002952038, z: -0.012926648, w: 0.9999154}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999997}
+      transformModified: 1
+    - name: finger 1.2
+      position: {x: -0.000009530782, y: 0.017131383, z: -0.002122101}
+      rotation: {x: 0.008136865, y: -0.9909575, z: -0.08303989, w: 0.10507796}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: finger 1.2_end
+      position: {x: -0, y: 0.003451265, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hand 1.1
+      position: {x: -7.4505804e-11, y: 0.012312131, z: -5.9604643e-10}
+      rotation: {x: 0.2586698, y: -0.040044818, z: -0.058035478, w: 0.9633889}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.99999994}
+      transformModified: 1
+    - name: finger 1.1
+      position: {x: -1.4901161e-10, y: 0.004810979, z: 0.000000006556511}
+      rotation: {x: -0.23229827, y: 0.06675904, z: 0.13698737, w: 0.96063274}
+      scale: {x: 1, y: 0.99999994, z: 1.0000004}
+      transformModified: 1
+    - name: finger 1.1_end
+      position: {x: -0, y: 0.0044499952, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: collar 1.003
+      position: {x: 0.0010225886, y: 0.006108459, z: 0.00008428775}
+      rotation: {x: 0.1995084, y: 0.1744452, z: -0.7875646, w: 0.55633384}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: bicep 1.002
+      position: {x: -8.1956386e-10, y: 0.005091073, z: -0.0000000032782554}
+      rotation: {x: -0.12785517, y: 0.9411609, z: 0.006194336, w: 0.3127793}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: tricep 1.002
+      position: {x: 0.0000000010430813, y: 0.016080137, z: 5.9604643e-10}
+      rotation: {x: -0.0070360275, y: -0.23319522, z: -0.00070327515, w: 0.9724043}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+      transformModified: 1
+    - name: finger 1.001
+      position: {x: 0.0010479913, y: 0.017421633, z: 0.001274546}
+      rotation: {x: -0.0531722, y: 0.9107332, z: -0.054106385, w: 0.40596846}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999994}
+      transformModified: 1
+    - name: finger 1.001_end
+      position: {x: -0, y: 0.0035595968, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hand 1
+      position: {x: 2.9802322e-10, y: 0.011058876, z: -0.0000000011920929}
+      rotation: {x: -0.16134325, y: 0.3431569, z: -0.0297949, w: 0.9248373}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: finger 1
+      position: {x: 0.0000000016391277, y: 0.0066574495, z: 0.0000000019371509}
+      rotation: {x: 0.16133517, y: -0.5206815, z: 0.042470712, w: 0.8372921}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: finger 1_end
+      position: {x: -0, y: 0.0038912802, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lower neck
+      position: {x: 3.3087224e-26, y: 0.0071462416, z: 7.4505804e-11}
+      rotation: {x: -0.020079484, y: -3.608225e-15, z: -1.204592e-14, w: 0.9997984}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+      transformModified: 1
+    - name: upper neck
+      position: {x: -6.617445e-26, y: 0.001675896, z: 1.4901161e-10}
+      rotation: {x: 0.0071408576, y: -0.014319519, z: 0.0020473727, w: 0.9998699}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999998}
+      transformModified: 1
+    - name: head
+      position: {x: 7.566996e-12, y: 0.0013629736, z: -2.3866958e-10}
+      rotation: {x: -0.022038369, y: 0.787839, z: -0.03598337, w: 0.6144341}
+      scale: {x: 1.0000004, y: 1, z: 1}
+      transformModified: 1
+    - name: head_end
+      position: {x: -0, y: 0.014425571, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh 1
+      position: {x: -0.00566155, y: -0.0037580472, z: 0.010656295}
+      rotation: {x: -0.0001500818, y: 0.02953765, z: 0.9993456, w: -0.020878589}
+      scale: {x: 0.9999882, y: 0.9999995, z: 0.99997604}
+      transformModified: 1
+    - name: knee 1
+      position: {x: -4.1909515e-10, y: 0.024007354, z: 5.0058585e-10}
+      rotation: {x: -0.08793489, y: -0.96169025, z: 0.2594197, w: -0.010985772}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000002}
+      transformModified: 1
+    - name: thigh 1.001
+      position: {x: -2.9802322e-10, y: 0.00259359, z: -8.475035e-10}
+      rotation: {x: -0.28123823, y: 0.17574315, z: -0.1354709, w: 0.9336311}
+      scale: {x: 1.0000005, y: 0.99999076, z: 1.0000086}
+      transformModified: 1
+    - name: heel 1
+      position: {x: -6.61239e-10, y: 0.016946955, z: 8.381903e-11}
+      rotation: {x: -0.07559691, y: 0.92890096, z: 0.3622369, w: -0.014581149}
+      scale: {x: 1, y: 0.9999983, z: 1.0000012}
+      transformModified: 1
+    - name: foot 1
+      position: {x: 3.72529e-10, y: 0.005330566, z: 9.778887e-10}
+      rotation: {x: 0.16135472, y: -0.53713447, z: -0.826668, w: 0.045511693}
+      scale: {x: 1, y: 1.0000017, z: 0.9999985}
+      transformModified: 1
+    - name: foot 1_end
+      position: {x: -0, y: 0.00827789, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh 1.004
+      position: {x: 0.005554015, y: -0.0037580458, z: 0.010656298}
+      rotation: {x: -0.001342451, y: 0.029568845, z: 0.9993447, w: 0.020834418}
+      scale: {x: 0.9999902, y: 0.9999772, z: 1.0000001}
+      transformModified: 1
+    - name: knee 1.002
+      position: {x: -6.426126e-10, y: 0.024007356, z: -2.4912877e-10}
+      rotation: {x: 0.08527306, y: -0.96158826, z: 0.2602965, w: 0.01795562}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1}
+      transformModified: 1
+    - name: thigh 1.002
+      position: {x: -5.2154064e-10, y: 0.0025935888, z: -4.9360094e-10}
+      rotation: {x: -0.27933794, y: -0.20482416, z: 0.13932471, w: 0.92768854}
+      scale: {x: 0.9999994, y: 1.0000106, z: 0.9999901}
+      transformModified: 1
+    - name: heel 1.002
+      position: {x: -3.9115547e-10, y: 0.016946955, z: -1.44355e-10}
+      rotation: {x: 0.081298284, y: 0.9289302, z: 0.36099982, w: -0.012587179}
+      scale: {x: 0.9999996, y: 1.000001, z: 0.9999984}
+      transformModified: 1
+    - name: foot 1.002
+      position: {x: -5.2154064e-10, y: 0.0053305603, z: -9.0105456e-10}
+      rotation: {x: 0.04998545, y: -0.53266877, z: -0.8407831, w: 0.08276059}
+      scale: {x: 1.0000001, y: 0.999999, z: 1.0000008}
+      transformModified: 1
+    - name: foot 1.002_end
+      position: {x: -0, y: 0.008277892, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: root
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-pelvis
+      position: {x: 5.0211424e-12, y: 0.000001015067, z: 0.010418155}
+      rotation: {x: 0.99994516, y: 0.0000000010643536, z: 0.00000016375397, w: 0.010472024}
+      scale: {x: 1, y: 0.99999994, z: 0.99928546}
+      transformModified: 1
+    - name: ORG-pelvis_end
+      position: {x: -0, y: 0.005646831, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-stomach
+      position: {x: 5.0211424e-12, y: 0.000001015067, z: 0.010418155}
+      rotation: {x: 0.075040266, y: -2.2935966e-10, z: 3.0318154e-10, w: 0.9971805}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-ribs
+      position: {x: -0, y: 0.009625, z: -0.0000000011920929}
+      rotation: {x: -0.18042238, y: 1.0130818e-10, z: -1.9770414e-12, w: 0.98358923}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-chest
+      position: {x: -0, y: 0.008016876, z: 5.9604643e-10}
+      rotation: {x: 0.15574443, y: -8.614234e-11, z: 4.166165e-12, w: 0.9877974}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: ORG-collar 1
+      position: {x: -0.0011301236, y: 0.0061084465, z: 0.00008428707}
+      rotation: {x: -0.13085817, y: 0.05358924, z: 0.8111689, w: 0.5674587}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-bicep 1
+      position: {x: -5.9604643e-10, y: 0.0050657657, z: -0.0000000010430813}
+      rotation: {x: 0.05513591, y: -0.087103546, z: -0.07224319, w: 0.99204534}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: ORG-tricep 1
+      position: {x: -0.000000002613815, y: 0.01609418, z: -7.561175e-10}
+      rotation: {x: -0.0014666282, y: -0.00029521255, z: -0.012926677, w: 0.99991536}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: ORG-finger 1.2
+      position: {x: -0.000009531766, y: 0.017131386, z: -0.0021221011}
+      rotation: {x: -0.008136846, y: 0.99095756, z: 0.083039865, w: -0.10507757}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: ORG-finger 1.2_end
+      position: {x: -0, y: 0.003451265, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-hand 1.1
+      position: {x: -0.0000000010864459, y: 0.0123121375, z: -8.2422047e-10}
+      rotation: {x: 0.25866976, y: -0.04004483, z: -0.058035526, w: 0.9633889}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-finger 1.1
+      position: {x: 5.9604643e-10, y: 0.0048109773, z: 2.2351741e-10}
+      rotation: {x: -0.23229825, y: 0.06675904, z: 0.13698749, w: 0.96063274}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+      transformModified: 1
+    - name: ORG-finger 1.1_end
+      position: {x: -0, y: 0.0044499952, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-collar 1.003
+      position: {x: 0.0010225886, y: 0.0061084563, z: 0.00008428842}
+      rotation: {x: 0.20046704, y: 0.17195463, z: -0.8007229, w: 0.53766847}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: ORG-bicep 1.002
+      position: {x: 0.0000000010430813, y: 0.005091071, z: 0.0000000013411044}
+      rotation: {x: -0.0964476, y: 0.9449625, z: 0.019461399, w: 0.3120337}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: ORG-tricep 1.002
+      position: {x: 0.0000000012805685, y: 0.016080134, z: 0.000000001428998}
+      rotation: {x: -0.0070360615, y: -0.23319517, z: -0.00070320524, w: 0.97240424}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: ORG-finger 1.001
+      position: {x: 0.0010479945, y: 0.017421635, z: 0.0012745475}
+      rotation: {x: -0.053172212, y: 0.9107332, z: -0.054106314, w: 0.40596837}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: ORG-finger 1.001_end
+      position: {x: -0, y: 0.0035595968, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-hand 1
+      position: {x: 0.000000001490116, y: 0.011058876, z: 8.9406965e-10}
+      rotation: {x: -0.16134322, y: 0.34315667, z: -0.029794877, w: 0.92483735}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-finger 1
+      position: {x: 0.0000000014528632, y: 0.0066574514, z: -5.9604643e-10}
+      rotation: {x: 0.16133514, y: -0.5206814, z: 0.04247065, w: 0.83729213}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+      transformModified: 1
+    - name: ORG-finger 1_end
+      position: {x: -0, y: 0.0038912802, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-lower neck
+      position: {x: 5.551115e-19, y: 0.0071462383, z: 4.4703483e-10}
+      rotation: {x: -0.020079276, y: 1.2348045e-11, z: 9.656812e-13, w: 0.9997984}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: ORG-upper neck
+      position: {x: -0, y: 0.0016758916, z: -2.9802322e-10}
+      rotation: {x: 0.007140799, y: -0.014319522, z: 0.0020473744, w: 0.9998699}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: ORG-head
+      position: {x: -2.0372681e-11, y: 0.0013629758, z: -3.3433024e-11}
+      rotation: {x: -0.0220383, y: 0.78783906, z: -0.035983354, w: 0.6144341}
+      scale: {x: 1, y: 0.99999976, z: 1}
+      transformModified: 1
+    - name: ORG-head_end
+      position: {x: -0, y: 0.014425568, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-thigh 1
+      position: {x: -0.00566155, y: -0.0037580465, z: 0.010656294}
+      rotation: {x: -0.00010702364, y: 0.029675601, z: 0.99934155, w: -0.02087649}
+      scale: {x: 1.000004, y: 1, z: 1.000008}
+      transformModified: 1
+    - name: ORG-knee 1
+      position: {x: -3.5739503e-10, y: 0.024007346, z: 1.862645e-10}
+      rotation: {x: 0.09148229, y: 0.9578348, z: -0.27215543, w: 0.010721553}
+      scale: {x: 0.9999999, y: 0.99999946, z: 1}
+      transformModified: 1
+    - name: ORG-thigh 1.001
+      position: {x: -0.0000000011920929, y: 0.0025935716, z: -7.4505804e-11}
+      rotation: {x: -0.30327246, y: -0.0058872104, z: -0.108622134, w: 0.9466744}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: ORG-heel 1
+      position: {x: -1.4901161e-10, y: 0.016946957, z: 2.4214386e-10}
+      rotation: {x: -0.075595275, y: 0.9289019, z: 0.36223492, w: -0.014576252}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: ORG-foot 1
+      position: {x: 3.7252902e-11, y: 0.005330514, z: 2.6077032e-10}
+      rotation: {x: -0.1613507, y: 0.5371426, z: 0.82666355, w: -0.045510318}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: ORG-foot 1_end
+      position: {x: -0, y: 0.008277889, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-thigh 1.004
+      position: {x: 0.005554015, y: -0.0037580454, z: 0.010656297}
+      rotation: {x: -0.0013537143, y: 0.029222699, z: 0.9993549, w: 0.020833356}
+      scale: {x: 0.99998975, y: 0.9999998, z: 0.9999796}
+      transformModified: 1
+    - name: ORG-knee 1.002
+      position: {x: -7.9162416e-10, y: 0.024007358, z: 0.000000001238659}
+      rotation: {x: -0.088695735, y: 0.95773077, z: -0.2730805, w: -0.017660536}
+      scale: {x: 1, y: 0.9999996, z: 0.9999999}
+      transformModified: 1
+    - name: ORG-thigh 1.002
+      position: {x: -1.4901161e-10, y: 0.0025935895, z: -0.0000000025657936}
+      rotation: {x: -0.30175126, y: -0.023689255, z: 0.112788185, w: 0.94639516}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: ORG-heel 1.002
+      position: {x: -5.7742e-10, y: 0.016946958, z: 5.448237e-10}
+      rotation: {x: 0.08129766, y: 0.9289295, z: 0.36100182, w: -0.012587421}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: ORG-foot 1.002
+      position: {x: 7.4505804e-11, y: 0.0053305547, z: -0.0000000015343539}
+      rotation: {x: -0.0499842, y: 0.53266937, z: 0.8407828, w: -0.082759656}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: ORG-foot 1.002_end
+      position: {x: -0, y: 0.008277892, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

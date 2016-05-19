@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: d7884b8c044d9e64ea4b61fe3e8564fb
+timeCreated: 1462903744
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 0-stoplight-lights
+    100002: 1-bakery_000
+    100004: 1-cafe-front-doors_000
+    100006: 1-cafe-patio-doors_000
+    100008: 1-cafe-patio-windows
+    100010: 1-cafe-upper-windows_000
+    100012: 1-cafe_000
+    100014: 1-fountain_000
+    100016: 1-hotel_000
+    100018: 1-road-blocks_000
+    100020: 1-stoplight-base_000
+    100022: 1-stoplight_000
+    100024: 1-store_000
+    100026: 1-street-sign_000
+    100028: 1-street_000
+    100030: Cone_001
+    100032: statue_base
+    100034: //RootNode
+    400000: 0-stoplight-lights
+    400002: 1-bakery_000
+    400004: 1-cafe-front-doors_000
+    400006: 1-cafe-patio-doors_000
+    400008: 1-cafe-patio-windows
+    400010: 1-cafe-upper-windows_000
+    400012: 1-cafe_000
+    400014: 1-fountain_000
+    400016: 1-hotel_000
+    400018: 1-road-blocks_000
+    400020: 1-stoplight-base_000
+    400022: 1-stoplight_000
+    400024: 1-store_000
+    400026: 1-street-sign_000
+    400028: 1-street_000
+    400030: Cone_001
+    400032: statue_base
+    400034: //RootNode
+    2300000: 0-stoplight-lights
+    2300002: 1-bakery_000
+    2300004: 1-cafe-front-doors_000
+    2300006: 1-cafe-patio-doors_000
+    2300008: 1-cafe-patio-windows
+    2300010: 1-cafe-upper-windows_000
+    2300012: 1-cafe_000
+    2300014: 1-fountain_000
+    2300016: 1-hotel_000
+    2300018: 1-road-blocks_000
+    2300020: 1-stoplight-base_000
+    2300022: 1-stoplight_000
+    2300024: 1-store_000
+    2300026: 1-street-sign_000
+    2300028: 1-street_000
+    2300030: Cone_001
+    2300032: statue_base
+    3300000: 0-stoplight-lights
+    3300002: 1-bakery_000
+    3300004: 1-cafe-front-doors_000
+    3300006: 1-cafe-patio-doors_000
+    3300008: 1-cafe-patio-windows
+    3300010: 1-cafe-upper-windows_000
+    3300012: 1-cafe_000
+    3300014: 1-fountain_000
+    3300016: 1-hotel_000
+    3300018: 1-road-blocks_000
+    3300020: 1-stoplight-base_000
+    3300022: 1-stoplight_000
+    3300024: 1-store_000
+    3300026: 1-street-sign_000
+    3300028: 1-street_000
+    3300030: Cone_001
+    3300032: statue_base
+    4300000: 1-store_000
+    4300002: 1-hotel_000
+    4300004: 1-fountain_000
+    4300006: 1-bakery_000
+    4300008: 1-road-blocks_000
+    4300010: 1-stoplight_000
+    4300012: 1-street-sign_000
+    4300014: 1-stoplight-base_000
+    4300016: 0-stoplight-lights
+    4300018: 1-cafe_000
+    4300020: 1-cafe-front-doors_000
+    4300022: 1-cafe-patio-doors_000
+    4300024: 1-cafe-patio-windows
+    4300026: 1-cafe-upper-windows_000
+    4300028: 1-street_000
+    4300030: statue_base
+    4300032: Cone_001
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
