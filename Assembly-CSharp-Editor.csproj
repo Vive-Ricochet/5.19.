@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{771CF0B9-55E1-1FDF-F0A5-006497E58910}</ProjectGuid>
+    <ProjectGuid>{8B5DBBA3-19EE-4701-D801-4CD62B07D899}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -76,7 +76,7 @@
  <HintPath>F:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="XInputDotNetPure">
- <HintPath>C:/Users/UltimateChaizballKid/Desktop/5.10.2016/Assets/Plugins/x86_64/XInputDotNetPure.dll</HintPath>
+ <HintPath>C:/Users/UltimateChaizballKid/Desktop/5.19.2016/Assets/Plugins/x86_64/XInputDotNetPure.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>F:/Program Files (x86)/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -87,9 +87,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{F35F508E-6C86-8D46-0551-617D097CC761}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{B5AC6CDB-4164-B8DB-0766-DCDB5C2B1777}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{9E840C6F-8803-7780-38DC-A8454E0386BD}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{78E605B8-385E-90A7-8AD7-CF9886E56CD7}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

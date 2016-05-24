@@ -137,7 +137,7 @@ public class PauseMenu : MonoBehaviour {
 
         if (splatterEffect.going_out == false && goingToRestart == true) {
             Time.timeScale = 1;
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }
 
     }
