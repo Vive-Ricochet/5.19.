@@ -11,7 +11,7 @@ public class PauseMenu : MonoBehaviour {
     // private fields
     private InputManager input;
     private bool canNavigate = false;
-    private int menuSize = 2;
+    private int menuSize = 3;
     [SerializeField] private int menuState = 0;
 
     // texture buttons for menu
@@ -21,6 +21,8 @@ public class PauseMenu : MonoBehaviour {
     public Texture2D[] button_resume = new Texture2D[3];
     public Texture2D[] button_restart = new Texture2D[3];
     public Texture2D[] button_mainmenu = new Texture2D[3];
+    public Texture2D[] button_controls = new Texture2D[3];
+
 
     private bool currentlypaused = false;
     public bool goingToMainMenu = false;
@@ -48,6 +50,10 @@ public class PauseMenu : MonoBehaviour {
         button_restart[1] = Resources.Load("Menu/button_restart01", typeof(Texture2D)) as Texture2D;
         button_mainmenu[0] = Resources.Load("Menu/button_mainmenu00", typeof(Texture2D)) as Texture2D;
         button_mainmenu[1] = Resources.Load("Menu/button_mainmenu01", typeof(Texture2D)) as Texture2D;
+        button_controls[0] = Resources.Load("Menu/button_controls00", typeof(Texture2D)) as Texture2D;
+        button_controls[1] = Resources.Load("Menu/button_controls01", typeof(Texture2D)) as Texture2D;
+
+
     }
 
     // Update is called once per frame
@@ -92,7 +98,7 @@ public class PauseMenu : MonoBehaviour {
                         currentlypaused = false;
                         RestartMatch();
                         break;
-                    case 2:
+                    case 3:
                         Time.timeScale = 1;
                         currentlypaused = false;
                         gotoMainMenu();
@@ -163,7 +169,9 @@ public class PauseMenu : MonoBehaviour {
 
             GUI.DrawTexture(new Rect(80, 80, 190, 90), button_resume[(menuState == 0 ? 1 : 0)]);
             GUI.DrawTexture(new Rect(100, 220, 180, 80), button_restart[(menuState == 1 ? 1 : 0)]);
-            GUI.DrawTexture(new Rect(100, 320, 180, 80), button_mainmenu[(menuState == 2 ? 1 : 0)]);
+            GUI.DrawTexture(new Rect(100, 320, 180, 80), button_controls[(menuState == 2 ? 1 : 0)]);
+            GUI.DrawTexture(new Rect(100, 420, 180, 80), button_mainmenu[(menuState == 3 ? 1 : 0)]);
+
         }
     }
 

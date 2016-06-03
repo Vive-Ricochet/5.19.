@@ -94,7 +94,7 @@ public class DataMenuManager : MonoBehaviour {
         GUI.depth = -10;
 
         GUI.DrawTexture(new Rect(20, 20, Screen.width - 40, Screen.height - 40), image_frame);
-        GUI.DrawTexture(new Rect(Screen.width - 400, Screen.height - 250, 320, 180), button_exit[(menuState == 0 ? 1 : 0)]);
+        GUI.DrawTexture(new Rect(Screen.width - 360, Screen.height - 240, 320, 180), button_exit[(menuState == 0 ? 1 : 0)]);
     }
 
     void gotoMain() {

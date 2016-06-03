@@ -1,0 +1,676 @@
+Initialize engine version: 5.3.1f1 (cc9cbbcc37b4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvumdshim.dll 10.18.13.6822]
+    Renderer: NVIDIA GeForce GT 650M
+    Vendor:   NVIDIA
+    VRAM:     1989 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\XInputDotNetPure.dll (this message is harmless)
+Loading C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\XInputDotNetPure.dll into Unity Child Domain
+Platform assembly: C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\XInputDotNetPure.dll (this message is harmless)
+Loading C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\XInputDotNetPure.dll into Unity Child Domain
+- Completed reload, in  0.068 seconds
+Platform assembly: C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Rene\Desktop\5.19.16-master\5.19.16-master\ParticleEffBuild_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.694759 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2a50 -> priority: 1 
+  Thread -> id: 2b88 -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.656773 ms
+
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 311.
+Total: 0.417212 ms (FindLiveObjects: 0.025434 ms CreateObjectMapping: 0.020972 ms MarkObjects: 0.148143 ms  DeleteObjects: 0.221769 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.464511 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.487714 ms (FindLiveObjects: 0.078087 ms CreateObjectMapping: 0.049083 ms MarkObjects: 0.327522 ms  DeleteObjects: 0.031681 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.211031 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.460495 ms (FindLiveObjects: 0.070056 ms CreateObjectMapping: 0.039267 ms MarkObjects: 0.294949 ms  DeleteObjects: 0.055330 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.296259 ms
+
+Unloading 319 unused Assets to reduce memory usage. Loaded Objects now: 311.
+Total: 2.003958 ms (FindLiveObjects: 0.042836 ms CreateObjectMapping: 0.043283 ms MarkObjects: 0.281116 ms  DeleteObjects: 1.635383 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.390885 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.439523 ms (FindLiveObjects: 0.052653 ms CreateObjectMapping: 0.040605 ms MarkObjects: 0.315475 ms  DeleteObjects: 0.030342 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.101262 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.477005 ms (FindLiveObjects: 0.066932 ms CreateObjectMapping: 0.039267 ms MarkObjects: 0.316813 ms  DeleteObjects: 0.053545 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 2 Scored:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.117326 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.452909 ms (FindLiveObjects: 0.047745 ms CreateObjectMapping: 0.039713 ms MarkObjects: 0.313244 ms  DeleteObjects: 0.051761 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.132497 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.515826 ms (FindLiveObjects: 0.085227 ms CreateObjectMapping: 0.039713 ms MarkObjects: 0.336001 ms  DeleteObjects: 0.053545 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player 1 Scored:3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.213709 ms
+
+Unloading 318 unused Assets to reduce memory usage. Loaded Objects now: 355.
+Total: 0.875923 ms (FindLiveObjects: 0.033466 ms CreateObjectMapping: 0.036589 ms MarkObjects: 0.238279 ms  DeleteObjects: 0.567141 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.425244 ms
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 1195.
+Total: 0.514487 ms (FindLiveObjects: 0.067824 ms CreateObjectMapping: 0.037928 ms MarkObjects: 0.337785 ms  DeleteObjects: 0.070502 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.240035 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.586774 ms (FindLiveObjects: 0.082103 ms CreateObjectMapping: 0.040159 ms MarkObjects: 0.410073 ms  DeleteObjects: 0.053099 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player 2 Scored:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.368546 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.543938 ms (FindLiveObjects: 0.070948 ms CreateObjectMapping: 0.040159 ms MarkObjects: 0.378391 ms  DeleteObjects: 0.053992 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player 1 Scored:2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.301613 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.570711 ms (FindLiveObjects: 0.059346 ms CreateObjectMapping: 0.040159 ms MarkObjects: 0.415873 ms  DeleteObjects: 0.054438 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.179796 ms
+
+Unloading 318 unused Assets to reduce memory usage. Loaded Objects now: 355.
+Total: 0.823715 ms (FindLiveObjects: 0.053099 ms CreateObjectMapping: 0.036143 ms MarkObjects: 0.296734 ms  DeleteObjects: 0.435953 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.399363 ms
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 1195.
+Total: 0.547954 ms (FindLiveObjects: 0.048191 ms CreateObjectMapping: 0.040605 ms MarkObjects: 0.387762 ms  DeleteObjects: 0.070948 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.332849 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.635858 ms (FindLiveObjects: 0.072287 ms CreateObjectMapping: 0.041944 ms MarkObjects: 0.464065 ms  DeleteObjects: 0.056223 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.240035 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.621133 ms (FindLiveObjects: 0.069609 ms CreateObjectMapping: 0.040605 ms MarkObjects: 0.453356 ms  DeleteObjects: 0.056669 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.429231 ms
+
+Unloading 318 unused Assets to reduce memory usage. Loaded Objects now: 355.
+Total: 1.085645 ms (FindLiveObjects: 0.047298 ms CreateObjectMapping: 0.037928 ms MarkObjects: 0.350726 ms  DeleteObjects: 0.648352 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.423459 ms
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 1195.
+Total: 0.637643 ms (FindLiveObjects: 0.058900 ms CreateObjectMapping: 0.039713 ms MarkObjects: 0.462280 ms  DeleteObjects: 0.075410 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 2 Scored:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.093676 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.678695 ms (FindLiveObjects: 0.072287 ms CreateObjectMapping: 0.041498 ms MarkObjects: 0.506902 ms  DeleteObjects: 0.057115 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 2 Scored:2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.105724 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.613101 ms (FindLiveObjects: 0.072287 ms CreateObjectMapping: 0.039713 ms MarkObjects: 0.448447 ms  DeleteObjects: 0.051761 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.476084 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.590344 ms (FindLiveObjects: 0.049083 ms CreateObjectMapping: 0.038820 ms MarkObjects: 0.449786 ms  DeleteObjects: 0.052207 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.304291 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.627380 ms (FindLiveObjects: 0.052207 ms CreateObjectMapping: 0.039713 ms MarkObjects: 0.480575 ms  DeleteObjects: 0.053992 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.272163 ms
+
+Unloading 318 unused Assets to reduce memory usage. Loaded Objects now: 355.
+Total: 1.133390 ms (FindLiveObjects: 0.049083 ms CreateObjectMapping: 0.038374 ms MarkObjects: 0.375714 ms  DeleteObjects: 0.669324 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.432830 ms
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 1195.
+Total: 0.636304 ms (FindLiveObjects: 0.062470 ms CreateObjectMapping: 0.039713 ms MarkObjects: 0.464511 ms  DeleteObjects: 0.068717 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player 2 Scored:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.255207 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.792926 ms (FindLiveObjects: 0.095936 ms CreateObjectMapping: 0.041051 ms MarkObjects: 0.595699 ms  DeleteObjects: 0.058900 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.152577 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.650583 ms (FindLiveObjects: 0.068717 ms CreateObjectMapping: 0.039713 ms MarkObjects: 0.488607 ms  DeleteObjects: 0.052653 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 2 Scored:2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.167302 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.657277 ms (FindLiveObjects: 0.062916 ms CreateObjectMapping: 0.038820 ms MarkObjects: 0.501993 ms  DeleteObjects: 0.052653 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 2 Scored:3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.119111 ms
+
+Unloading 318 unused Assets to reduce memory usage. Loaded Objects now: 355.
+Total: 0.878600 ms (FindLiveObjects: 0.025434 ms CreateObjectMapping: 0.041498 ms MarkObjects: 0.396240 ms  DeleteObjects: 0.414981 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.421228 ms
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 1195.
+Total: 0.794265 ms (FindLiveObjects: 0.082103 ms CreateObjectMapping: 0.039713 ms MarkObjects: 0.596145 ms  DeleteObjects: 0.075410 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player 2 Scored:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.415399 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.719301 ms (FindLiveObjects: 0.071840 ms CreateObjectMapping: 0.040605 ms MarkObjects: 0.552862 ms  DeleteObjects: 0.053099 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.345343 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.836656 ms (FindLiveObjects: 0.085227 ms CreateObjectMapping: 0.041051 ms MarkObjects: 0.651922 ms  DeleteObjects: 0.056669 ms)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.145884 ms
+Can not play a disabled audio source
+ 
+(Filename:  Line: 436)
+
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1199.
+Total: 0.701898 ms (FindLiveObjects: 0.070502 ms CreateObjectMapping: 0.038820 ms MarkObjects: 0.539922 ms  DeleteObjects: 0.052207 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ProjectileMaker.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player hit!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player 1 Scored:3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.388179 ms
+
+Unloading 318 unused Assets to reduce memory usage. Loaded Objects now: 355.
+Total: 1.301613 ms (FindLiveObjects: 0.043729 ms CreateObjectMapping: 0.038374 ms MarkObjects: 0.452017 ms  DeleteObjects: 0.766153 ms)
+

@@ -12,10 +12,6 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField] InputManager input;
     [SerializeField] public int player_num = 1;
 
-    public GameObject player;
-    public static int player1_travel;
-    public static int player2_travel;
-
 
     // private fields
     PlayerAccesor myStats;
@@ -87,12 +83,6 @@ public class PlayerMovement : MonoBehaviour {
         //if (dashing==false && charging == false) {
         if ( canMove ) {
 
-            if (player.name == "human1") {
-                player1_travel += 1;
-            }
-            if (player.name == "human2") {
-                player2_travel += 1;
-            }
 
             // Get movement inputs
             if ( System.Math.Abs( input.leftStick(player_num, "X")) > 0  || System.Math.Abs(input.leftStick(player_num, "Y")) > 0) {

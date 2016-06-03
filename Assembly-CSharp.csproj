@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{78E605B8-385E-90A7-8AD7-CF9886E56CD7}</ProjectGuid>
+    <ProjectGuid>{FA93D739-4B81-C7F6-6051-41E45A2601A7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,6 +54,7 @@
      <Compile Include="Assets\CameraShake\Util_Easing.cs" />
      <Compile Include="Assets\CameraShake\Util_Noise.cs" />
      <Compile Include="Assets\CreateAudio.cs" />
+     <Compile Include="Assets\DataMenuManager.cs" />
      <Compile Include="Assets\DontDestroy.cs" />
      <Compile Include="Assets\FloatingObject.cs" />
      <Compile Include="Assets\MainMenuManager.cs" />
@@ -100,12 +101,19 @@
      <Compile Include="Assets\Scripts\UiScripts\StartMenu.cs" />
      <Compile Include="Assets\Scripts\UiScripts\TitleScreenMenu.cs" />
      <Compile Include="Assets\SingleInstance.cs" />
+     <Compile Include="Assets\SpinSpawnAnimation.cs" />
+     <Compile Include="Assets\SpinSpawnAnimationDepender.cs" />
      <Compile Include="Assets\SplatterSceneTransition.cs" />
      <Compile Include="Assets\XboxCtrlrInputExample\MoveLaser.cs" />
      <Compile Include="Assets\XboxCtrlrInputExample\MovePlayer.cs" />
+     <None Include="Assets\Scripts\Outlined_Diffuse.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -113,12 +121,12 @@
  <HintPath>F:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="XInputDotNetPure">
- <HintPath>C:/Users/UltimateChaizballKid/Desktop/5.19.2016/Assets/Plugins/x86_64/XInputDotNetPure.dll</HintPath>
+ <HintPath>C:/Users/UltimateChaizballKid/Desktop/5.19.16-master/5.19.16-master/Assets/Plugins/x86_64/XInputDotNetPure.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{B5AC6CDB-4164-B8DB-0766-DCDB5C2B1777}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{70A91810-A5E5-88CB-BC0C-E617D9F83E91}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
