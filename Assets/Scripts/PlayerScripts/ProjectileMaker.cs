@@ -7,14 +7,9 @@ public class  ProjectileMaker : MonoBehaviour {
     private InputManager input;
     private int player_num;
 
-    public static int BoFP1;
-    public static int BoFP2;
-    public static int HoardP1;
-    public static int HoardP2;
-
     public GameObject currentProjectile = null;
-    public GameObject player;
 
+    public bool canThrow = true;
     private float gravity = 50;
     private bool canPickUp = false;
     private bool isThrowing = false;
@@ -50,7 +45,7 @@ void Update () {
 
         canPickUp = input.button(player_num, "X");
 
-        if (canSpin && input.rightTrigger(player_num) >= 0.2) {
+        if (canThrow && canSpin && input.rightTrigger(player_num) >= 0.2) {
             spinBall();
         }
 
@@ -104,11 +99,6 @@ void Update () {
 
     // Append an item to the current projectile
     public void appendItem(Collider other) {
-        if (player.name.Equals("human1"))
-            HoardP1 += 1;
-        if (player.name.Equals("human2")) {
-            HoardP2 += 1;
-        }
 
         if (currentProjectile == null) {
             currentProjectile = buildNewProjectile();
@@ -185,12 +175,6 @@ void Update () {
         if (currentProjectile != null) {
             throwing = true;
             animator.SetBool("Throwing", throwing);
-            if (player.name.Equals("human1")) {
-                BoFP1 += 1;
-            }
-            if (player.name.Equals("human2")) {
-                BoFP2 += 1;
-            }
 
             // getting initial projectile references
             Vector3 projectilePosition = currentProjectile.transform.position;
@@ -239,7 +223,7 @@ currentProjectile = null;
 
         canSpin = false;
         rotationSpeed = 1;
-        throwSpeed = 25;
+        throwSpeed = 100;
         isThrowing = false;
         throwing = false;
     }

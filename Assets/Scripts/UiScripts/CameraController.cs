@@ -30,6 +30,7 @@ public class CameraController : MonoBehaviour {
     public Texture2D image_knockout;
 
     private bool initialHit = false;
+    private int knockout_timer = 100;
 
     private float XDist;
     private float YDist;
@@ -54,6 +55,7 @@ public class CameraController : MonoBehaviour {
 
         player1.GetComponent<PlayerMovement>().canMove = false;
         player2.GetComponent<PlayerMovement>().canMove = false;
+
     }
 
     void FixedUpdate() {
@@ -84,6 +86,14 @@ public class CameraController : MonoBehaviour {
             Camera.main.fieldOfView = distance * distanceBias + minDistance;
             old_dis = distance;
         } else {
+
+            player1.GetComponent<PlayerMovement>().canMove = false;
+            player2.GetComponent<PlayerMovement>().canMove = false;
+            player1.GetComponent<ProjectileMaker>().canThrow = false;
+            player2.GetComponent<ProjectileMaker>().canThrow = false;
+
+
+
             float CamZ = target.position.z + ZDist;
             float CamY = target.position.y + YDist;
             float CamX = target.position.x + XDist;
@@ -141,8 +151,13 @@ public class CameraController : MonoBehaviour {
             GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), white_screen);
         }
 
-        if(collided) {
-            GUI.DrawTexture(new Rect(Screen.width/2 - 170, Screen.height/2 , 340, 100), image_knockout);
+        if(collided && knockout_timer > 0) {
+            knockout_timer--;
+            GUI.DrawTexture(new Rect(Screen.width/2 - 340, Screen.height/2 - 100 , 680, 200), image_knockout);
+        }
+
+        if (knockout_timer <= 2 && knockout_timer != 0) {
+            GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), white_screen);
         }
 
     }

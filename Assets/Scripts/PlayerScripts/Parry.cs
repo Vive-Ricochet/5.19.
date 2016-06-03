@@ -7,10 +7,6 @@ public class Parry : MonoBehaviour
     private InputManager input;
     private int player_num;
 
-    public static int BoSP1;
-    public static int BoSP2;
-    public GameObject player;
-
     private int startFrame;
     private int parryProgress;
     private int parryWindow = 10;
@@ -87,12 +83,7 @@ public class Parry : MonoBehaviour
     }
 
     private void parry(Collider other) {
-        if (player.name.Equals("human1")) {
-            BoSP1 += 1;
-        }
-        if (player.name.Equals("human2")) {
-            BoSP2 += 1;
-        }
+
         GetComponent<ProjectileMaker>().appendItem(other);
     }
 }

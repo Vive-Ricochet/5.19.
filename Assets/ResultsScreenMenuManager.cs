@@ -87,18 +87,14 @@ public class ResultsScreenMenuManager : MonoBehaviour {
 
         //GUI.DrawTexture(new Rect(20, 20, Screen.width - 40, Screen.height - 40), image_frame);
 
-        GUI.DrawTexture(new Rect(Screen.width - 200, Screen.height - 200, 180, 80), button_rematch[(menuState == 0 ? 1 : 0)]);
-        GUI.DrawTexture(new Rect(Screen.width - 200, Screen.height - 100, 180, 80), button_mainMenu[(menuState == 1 ? 1 : 0)]);
+        GUI.DrawTexture(new Rect(Screen.width - 340, Screen.height - 300, 260, 130), button_rematch[(menuState == 0 ? 1 : 0)]);
+        GUI.DrawTexture(new Rect(Screen.width - 340, Screen.height - 160, 260, 130), button_mainMenu[(menuState == 1 ? 1 : 0)]);
     }
 
     void gotoVersus() {
         ScoreManager.scoreP1 = 0;
         ScoreManager.scoreP2 = 0;
         splatterEffect.startGoingOut();
-        PlayerPrefs.SetInt("total_distance", Added_Results_Manager.TotalTraveled);
-        PlayerPrefs.SetInt("total_thrown", Added_Results_Manager.TotalThrows);
-        PlayerPrefs.SetInt("total_caught", Added_Results_Manager.TotalParry);
-        PlayerPrefs.SetInt("total_pickedUp", Added_Results_Manager.TotalPickup);
         goingToRematch = true;
     }
 
@@ -106,10 +102,6 @@ public class ResultsScreenMenuManager : MonoBehaviour {
         ScoreManager.scoreP1 = 0;
         ScoreManager.scoreP2 = 0;
         splatterEffect.startGoingOut();
-        PlayerPrefs.SetInt("total_distance", Added_Results_Manager.TotalTraveled);
-        PlayerPrefs.SetInt("total_thrown", Added_Results_Manager.TotalThrows);
-        PlayerPrefs.SetInt("total_caught", Added_Results_Manager.TotalParry);
-        PlayerPrefs.SetInt("total_pickedUp", Added_Results_Manager.TotalPickup);
         goingToMainMenu = true;
     }
 }

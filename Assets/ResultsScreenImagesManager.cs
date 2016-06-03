@@ -33,8 +33,8 @@ public class ResultsScreenImagesManager : MonoBehaviour {
             victor.GetComponent<Renderer>().material.mainTexture = Resources.Load("Menu/image_bluevictory", typeof(Texture2D)) as Texture2D;
         }
 
-        redScore.GetComponent<Renderer>().material.mainTexture = Resources.Load("Text/Red/" + scoreP1, typeof(Texture2D)) as Texture2D;
-        blueScore.GetComponent<Renderer>().material.mainTexture = Resources.Load("Text/Blue/" + scoreP2, typeof(Texture2D)) as Texture2D;
+        redScore.GetComponent<Renderer>().material.mainTexture = Resources.Load("Text/Large/Red/" + scoreP1, typeof(Texture2D)) as Texture2D;
+        blueScore.GetComponent<Renderer>().material.mainTexture = Resources.Load("Text/Large/Blue/" + scoreP2, typeof(Texture2D)) as Texture2D;
     }
 
     // Update is called once per frame
