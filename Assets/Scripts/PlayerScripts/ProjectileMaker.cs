@@ -7,7 +7,13 @@ public class  ProjectileMaker : MonoBehaviour {
     private InputManager input;
     private int player_num;
 
+    public static int BoFP1;
+    public static int BoFP2;
+    public static int HoardP1;
+    public static int HoardP2;
+
     public GameObject currentProjectile = null;
+    public GameObject player;
 
     private float gravity = 50;
     private bool canPickUp = false;
@@ -20,6 +26,10 @@ public class  ProjectileMaker : MonoBehaviour {
     Animator animator;
     bool throwing = false;
     public bool canSpin = true;
+    public GameObject ThrowEff;
+    
+    private ParticleSystem ThrowEffect;
+
 
     private string projectileName = "Projectile Object";
 
@@ -31,10 +41,12 @@ public class  ProjectileMaker : MonoBehaviour {
 
         Physics.gravity = Vector3.down * gravity;
         animator = GetComponent<Animator>();
-    }
-	
-	// Update is called once per frame
-	void Update () {
+
+
+}
+
+// Update is called once per frame
+void Update () {
 
         canPickUp = input.button(player_num, "X");
 
@@ -81,17 +93,22 @@ public class  ProjectileMaker : MonoBehaviour {
     // On colliding with pickup item
     /*** must be trigger enabled ***/
     void OnTriggerEnter(Collider other) {
-        if (canPickUp) {
+
             if (other.gameObject.CompareTag("Pickup") && other.gameObject.GetComponent<PickupProperties>().isPickupable()) {
                 appendItem(other);
                 GameObject spawnLocation = (GameObject) other.gameObject.GetComponent<PickupProperties>().getSpawner();
                 spawnLocation.GetComponent<SpawnItems>().startSpawnTimer();
             }
-        }
+        
     }
 
     // Append an item to the current projectile
     public void appendItem(Collider other) {
+        if (player.name.Equals("human1"))
+            HoardP1 += 1;
+        if (player.name.Equals("human2")) {
+            HoardP2 += 1;
+        }
 
         if (currentProjectile == null) {
             currentProjectile = buildNewProjectile();
@@ -168,6 +185,12 @@ public class  ProjectileMaker : MonoBehaviour {
         if (currentProjectile != null) {
             throwing = true;
             animator.SetBool("Throwing", throwing);
+            if (player.name.Equals("human1")) {
+                BoFP1 += 1;
+            }
+            if (player.name.Equals("human2")) {
+                BoFP2 += 1;
+            }
 
             // getting initial projectile references
             Vector3 projectilePosition = currentProjectile.transform.position;
@@ -189,8 +212,24 @@ public class  ProjectileMaker : MonoBehaviour {
             Vector3 newVelocity = heading.normalized * throwSpeed;
             currentProjectile.GetComponent<Rigidbody>().velocity = newVelocity;
             currentProjectile.GetComponent<ProjectileProperties>().inMotion = true;
-            currentProjectile = null;
 
+
+            GameObject Effect = Instantiate(ThrowEff);
+            Effect.transform.position = currentProjectile.transform.position;
+            Effect.transform.parent = currentProjectile.transform;
+            if (player_num == 2)
+            {
+
+                Effect.GetComponent<ParticleSystem>().startColor = Color.blue;
+            }
+            else {
+                Effect.GetComponent<ParticleSystem>().startColor = Color.red;
+            }
+
+            currentProjectile.GetComponent<ProjectileProperties>().TrailEffect = Effect;
+
+
+currentProjectile = null;
 
         }
         throwSpeed = 100;

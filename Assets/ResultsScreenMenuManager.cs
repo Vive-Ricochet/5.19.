@@ -95,6 +95,10 @@ public class ResultsScreenMenuManager : MonoBehaviour {
         ScoreManager.scoreP1 = 0;
         ScoreManager.scoreP2 = 0;
         splatterEffect.startGoingOut();
+        PlayerPrefs.SetInt("total_distance", Added_Results_Manager.TotalTraveled);
+        PlayerPrefs.SetInt("total_thrown", Added_Results_Manager.TotalThrows);
+        PlayerPrefs.SetInt("total_caught", Added_Results_Manager.TotalParry);
+        PlayerPrefs.SetInt("total_pickedUp", Added_Results_Manager.TotalPickup);
         goingToRematch = true;
     }
 
@@ -102,6 +106,10 @@ public class ResultsScreenMenuManager : MonoBehaviour {
         ScoreManager.scoreP1 = 0;
         ScoreManager.scoreP2 = 0;
         splatterEffect.startGoingOut();
+        PlayerPrefs.SetInt("total_distance", Added_Results_Manager.TotalTraveled);
+        PlayerPrefs.SetInt("total_thrown", Added_Results_Manager.TotalThrows);
+        PlayerPrefs.SetInt("total_caught", Added_Results_Manager.TotalParry);
+        PlayerPrefs.SetInt("total_pickedUp", Added_Results_Manager.TotalPickup);
         goingToMainMenu = true;
     }
 }

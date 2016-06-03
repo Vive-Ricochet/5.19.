@@ -25,6 +25,7 @@ public class CameraController : MonoBehaviour {
     private bool StillScreen = true;
 
     private int countdownToStart = 100;
+    private bool alreadyCounted = false;
     public bool collided = false;
     public Texture2D image_knockout;
 
@@ -56,11 +57,18 @@ public class CameraController : MonoBehaviour {
     }
 
     void FixedUpdate() {
-        if (countdownToStart > 0) {
+        if (countdownToStart > 0)
+        {
             countdownToStart--;
-        } else {
-            player1.GetComponent<PlayerMovement>().canMove = true;
-            player2.GetComponent<PlayerMovement>().canMove = true;
+        }
+        else {
+            //canMove fucked here
+            if (alreadyCounted == false)
+            {
+                player1.GetComponent<PlayerMovement>().canMove = true;
+                player2.GetComponent<PlayerMovement>().canMove = true;
+                alreadyCounted = true;
+            }
         }
     }
 

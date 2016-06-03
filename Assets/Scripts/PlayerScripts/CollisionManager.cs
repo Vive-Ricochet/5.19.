@@ -25,6 +25,8 @@ public class CollisionManager : MonoBehaviour {
             {
 
                 other.gameObject.GetComponent<ProjectileProperties>().inMotion = false;
+                Destroy(other.gameObject.GetComponent<ProjectileProperties>().TrailEffect, .1f);
+                other.gameObject.GetComponent<ProjectileProperties>().TrailEffect.transform.parent = null;
                 Vector3 obj_velocity = other.gameObject.GetComponent<Rigidbody>().velocity;
 
                 // Affect the player

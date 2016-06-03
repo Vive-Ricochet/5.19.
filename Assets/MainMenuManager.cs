@@ -9,15 +9,19 @@ public class MainMenuManager : MonoBehaviour {
 
     public Texture2D[] button_versus = new Texture2D[3];
     public Texture2D[] button_exit = new Texture2D[3];
+    public Texture2D[] button_data = new Texture2D[3];
+
 
     public int menuState = 0;
 
     private InputManager input;
     private bool canNavigate = true;
-    private int menuSize = 1;
+    private int menuSize = 2;
 
     private bool goingToVersus = false;
     private bool goingToTitle = false;
+    private bool goingToData = false;
+
 
     SplatterSceneTransition splatterEffect;
 
@@ -35,12 +39,16 @@ public class MainMenuManager : MonoBehaviour {
         button_versus[1] = Resources.Load("Menu/button_versus01", typeof(Texture2D)) as Texture2D;
         button_exit[0] = Resources.Load("Menu/button_exit00", typeof(Texture2D)) as Texture2D;
         button_exit[1] = Resources.Load("Menu/button_exit01", typeof(Texture2D)) as Texture2D;
+        button_data[0] = Resources.Load("Menu/button_data00", typeof(Texture2D)) as Texture2D;
+        button_data[1] = Resources.Load("Menu/button_data01", typeof(Texture2D)) as Texture2D;
 
-	}
+
+    }
 
     void OnLevelWasLoaded() {
         goingToTitle = false;
         goingToVersus = false;
+        goingToData = false;
     }
 
 	// Update is called once per frame
@@ -74,6 +82,9 @@ public class MainMenuManager : MonoBehaviour {
                     gotoVersus();
                     break;
                 case 1:
+                    gotoData();
+                    break;
+                case 2:
                     gotoTitleScreen();
                     break;
             }
@@ -92,6 +103,12 @@ public class MainMenuManager : MonoBehaviour {
                 SceneManager.LoadScene(2);
             }
         }
+
+        if (goingToData) {
+            if (splatterEffect.going_out == false) {
+                SceneManager.LoadScene(4);
+            }
+        }
 	}
 
     void OnGUI() {
@@ -100,8 +117,9 @@ public class MainMenuManager : MonoBehaviour {
 
         GUI.DrawTexture(new Rect(20, 20, Screen.width - 40, Screen.height - 40), image_frame);
 
-        GUI.DrawTexture(new Rect(Screen.width/4 - 100, Screen.height/4 - 20, 270, 140), button_versus[(menuState == 0 ? 1 : 0)]);
-        GUI.DrawTexture(new Rect(Screen.width / 4 , Screen.height / 4 + 140, 260, 140), button_exit[(menuState == 1 ? 1 : 0)]);
+        GUI.DrawTexture(new Rect(Screen.width/4 - 120, Screen.height/4 - 40, 320, 180), button_versus[(menuState == 0 ? 1 : 0)]);
+        GUI.DrawTexture(new Rect(Screen.width / 4 - 20, Screen.height / 4 + 180, 320, 180), button_data[(menuState == 1 ? 1 : 0)]);
+        GUI.DrawTexture(new Rect(Screen.width / 4 - 80, Screen.height / 4 + 400, 320, 180), button_exit[(menuState == 2 ? 1 : 0)]);
     }
 
     void gotoVersus() {
@@ -112,7 +130,16 @@ public class MainMenuManager : MonoBehaviour {
 
     void gotoTitleScreen() {
         goingToTitle = true;
+        PlayerPrefs.SetInt("total_distance", Added_Results_Manager.TotalTraveled);
+        PlayerPrefs.SetInt("total_thrown", Added_Results_Manager.TotalThrows);
+        PlayerPrefs.SetInt("total_caught", Added_Results_Manager.TotalParry);
+        PlayerPrefs.SetInt("total_pickedUp", Added_Results_Manager.TotalPickup);
         splatterEffect.startGoingOut();
         //SceneManager.LoadScene(0);
+    }
+
+    void gotoData() {
+        goingToData = true;
+        splatterEffect.startGoingOut();
     }
 }

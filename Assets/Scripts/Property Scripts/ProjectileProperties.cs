@@ -11,6 +11,7 @@ public class ProjectileProperties : MonoBehaviour {
     private int itemCount = 0;
     public GameObject origin;
     public bool inMotion = false;
+    public GameObject TrailEffect;
 
     // On scene load, do this
     public void Init(GameObject parent) {
@@ -27,11 +28,38 @@ public class ProjectileProperties : MonoBehaviour {
     void Update() {
         
         if (inMotion) {
-            if (rigidbody.velocity.magnitude <= 10f) {
+            if (rigidbody.velocity.magnitude <= 20f) {
                 inMotion = false;
-                GetComponent<StillProjectile>().makePickupable(true);
+
+                //GetComponent<StillProjectile>().makePickupable(true);
+                if (TrailEffect != null)
+                {
+                    TrailEffect.transform.parent = null;
+                    Destroy(TrailEffect, .05f);
+                }
+
+                Transform[] all_transforms = gameObject.GetComponentsInChildren<Transform>();
+                foreach (Transform child in all_transforms)
+                {
+
+                    if (child.parent == gameObject.transform)
+                    {
+
+                        child.parent = null;
+                        child.gameObject.GetComponent<Rigidbody>().isKinematic = false;
+                        child.gameObject.GetComponent<Rigidbody>().detectCollisions = true;
+                        child.gameObject.GetComponent<Rigidbody>().angularVelocity = new Vector3(Random.Range(-20, 20), Random.Range(-20, 20), Random.Range(-20, 20));
+                        child.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(Random.Range(-20, 20), 20f, Random.Range(-20, 20));
+
+                        child.gameObject.GetComponent<PickupProperties>().makePickupable(true);
+                    }
+                }
                 Physics.IgnoreCollision(GetComponent<SphereCollider>(), GameObject.Find("human1").gameObject.GetComponent<BoxCollider>(), false);
                 Physics.IgnoreCollision(GetComponent<SphereCollider>(), GameObject.Find("human2").gameObject.GetComponent<BoxCollider>(), false);
+                //HERE I ADD THE STOP PARTICLE EFF
+
+                
+                Destroy(this);
             }
         }
 
